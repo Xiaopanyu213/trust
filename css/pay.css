@@ -1,0 +1,451 @@
+ body{
+	font-family: calibri; 
+} 
+
+.back{
+	color: white;
+	text-decoration: none;
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	font-size: 25px;
+	cursor: pointer;
+}
+.back:hover{
+	color: white;
+}
+
+.pay{
+	background: #002233;
+	color: white;
+}
+.pay h3{
+	margin-top: 5vh;
+}
+
+.bitcoin{
+	background: #00b33c;
+}
+.eth{
+	background: #999966;
+}
+.usdt{
+	background: #00334d;
+}
+
+.bank{
+	background: #3474bc;
+}
+.lit{
+	background: #ff6600;
+}
+.cash{
+	background: #6600cc;
+}
+
+
+
+
+.top-space{
+	margin-top: 10vh;
+}
+.accordion img{
+	height: 50px;
+	width: 50px;
+}
+button.accordion {  
+    color: #cccccc;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #0d0d0d;
+    text-align: left;
+    outline: none; 
+    font-weight: bold;
+    transition: 0.4s;
+	border-bottom-right-radius: 30px;
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #0d0d0d;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+ 
+div.panel {
+	border-radius: 0px;
+    padding: 5px 18px;
+    background-color: #0d0d0d;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 500px;  
+}
+
+
+.panel b{
+	font-weight: normal;
+}
+.panel span{
+	color: purple;
+}
+
+
+.btn{
+	position: absolute;
+	width: 30%;
+	left: 35%;
+	bottom: 5%;
+	text-decoration: none;
+	background: purple;
+	padding: 10px 30px;
+	font-size: 20px;
+	color: white;
+	border: none;
+	border-radius: 8px;
+}
+.btn:hover{
+	color: white;
+	background: #990099;
+} 
+
+
+.screen{
+	position: fixed;
+	height: 100vh;
+	width: 100%;
+	background: rgba(38, 38, 38, .6);
+	backdrop-filter: blur(3px);
+	animation: link-animate 0.3s ease-in-out; 
+	transition: 0.3s ease-in-out;
+	z-index: 100;
+}
+
+.short{
+	background: rgba(128, 128, 128, .2);
+	backdrop-filter: blur(2px);
+	width: 40%;
+	height: 30rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 70px;
+	border-radius: 13px; 
+	padding: 20px; 
+	text-align: center;
+}
+.screen span{
+	color: white; 
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+
+.short input{
+	width: 100%;
+	padding: 10px 30px; 
+}
+
+.short button{ 
+	width: 100%;
+	bottom: 5%;
+	padding: 10px 30px;
+	background: purple;
+	color: white;
+	border-radius: 8px;
+	margin-top: 20%;
+	border: none;
+}
+
+ 	@keyframes link-animate{
+		from{ 
+			opacity: 0; 
+		}
+		to{
+			opacity: 1;  
+		}
+	}  
+
+
+
+
+
+
+
+
+
+
+/*styling for admin */
+.tab-content{
+	padding-bottom: 40vh; 
+}
+.navbar{ 
+	height: 8vh;
+	padding: 2% 0px;
+	background:white;
+ 	backdrop-filter:blur(5px);
+ 	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+ 	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	margin: 0 !important;
+}
+.navbar span{
+   color: #3474bc;
+   font-size: 20pt;
+}
+.navbar a{
+	display: block;
+	flex-basis: 23%;
+	align-self: center;
+	display: flex;
+}
+.navbar span{
+	align-self: center;
+}
+.navbar h4{
+    display: inline-block;
+	font-size: 12pt;
+	color: #3474bc;
+	margin-top: 10px;
+ }
+
+.navbar h3{
+	color: white;
+	margin: 0;
+	flex-basis: 55%;
+	color: black;
+	align-self: center;
+	font-size: 13pt;
+}
+.navbar img{
+	/* height: 40px;
+	width: 80px;
+	margin-top: 10px;
+	margin-left: 20px; */
+	flex-basis: 10%;
+	color: #3474bc;
+}
+
+.container-fluid{
+	background-color: #eeeeee;
+	height: 82vh;
+	padding: 0 !important;
+}
+
+.container-fluid textarea{
+	width: 100%;
+	height: 30%;
+	margin-top: 20%;
+	resize: none;
+	font-size: 15px;
+	padding: 2%;
+	border: none;
+	outline: none;
+}
+
+.container-fluid form{
+	padding: 2px 7px;
+	width: 100%;
+	background-color: white;
+}
+.container-fluid .submit{
+	padding: 8px 7px;
+	margin-top: 10%;
+	color: #3474bc;
+	font-size: 15px;
+}
+.container-fluid p{
+	padding: 2px 7px;
+	color: #999;
+}
+.container-fluid input{
+	display: block;
+	border: none;
+	width: 100%;
+	background-color: white;
+	padding: 2px 0;
+	font-size: 18px;
+	outline: none;
+}
+.container-fluid label{
+	color: #8c8c8c;
+	margin: 0;
+}
+.paste{
+	background: none;
+	border: none;
+    margin-top: -30px;
+	float: right;
+	position: relative;
+	font-size: 15px;
+	font-weight: bold;
+	color: #3474bc;
+	cursor: pointer;
+} 
+.footer{
+	height: 8vh;
+}
+
+.footer h5{
+	color: #3474bc;
+}
+.fullscreen{
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background-color: #000;
+	top: 0;
+	padding: 2%;
+}
+.area{
+	margin-top: 40vh;
+	background-color: white;
+	border-radius: 10px;
+	text-align: center;
+}
+	.nav-tabs li{
+		list-style: none;
+		display: inline-block;
+		margin-top: 2vh; 
+		width: 33%;
+		text-align: center;
+	} 
+	.nav-tabs li a{ 
+		color: #8c8c8c; 
+		font-size: 1.8rem; 
+		padding: 3px 10px; 
+	}
+	.nav-tabs>li.active>a,.nav-tabs>li.active>a:focus,.nav-tabs>li.active{ 
+		color: #aa00ff;
+		border: none; 
+		background: none;
+		font-weight: bold;
+		border-bottom: 1px solid #aa00ff;
+	}
+	.nav-tabs>li>a:hover{ 
+		color: #aa00ff;
+		background: none;
+		border:none; 
+	}
+	.nav-tabs>li.active>a:hover{
+		color: #aa00ff;
+		border:none;
+		background: none;
+		border-bottom: 1px solid #aa00ff;
+	}
+
+.welcome p{
+	font-size: 20px;
+}
+.welcome b{
+	font-size: 23px;
+}
+
+.mode{
+	margin-top: 10px;
+	margin-bottom: 30px;
+	background: #004d4d;
+	padding: 20px;
+	border-radius: 8px; 
+	color: white;
+	width: 95%;
+}
+
+.mode input,.mode select{
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 10px 15px;
+	border-radius: 6px;
+	border: none;
+	color: black;
+}
+ .mode button{
+ 	width: 100%;
+ 	color: white;
+ 	padding: 10px 15px;
+ 	background: purple;
+	border-radius: 6px;
+	margin-top: 13px;
+	border: none;
+ }
+
+
+.approve {
+	padding: 20px;
+	background: #262626;
+	color: white;
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.approve img{
+	height: 60%;
+	width: 60%;
+}
+.approve button{
+	background: purple;
+	color: white;
+	border: none;
+	border-radius: 8px;
+	padding: 10px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+	.tab-content{
+		padding-bottom: 10vh; 
+	}
+
+	.back{ 
+		position: absolute;
+		top: 3%;
+		left: 5%;
+		font-size: 20px;
+		cursor: pointer;
+	} 
+	.pay h3{
+		margin-top: 10vh;
+	}
+
+	.payment{
+		padding-bottom: 50px;
+	}
+	.top-space{
+		margin-top: 6vh;
+	}
+	.btn{
+		position: unset;
+		width: unset;
+		left: unset;
+		bottom: unset;
+		font-size: 15px;
+		text-align: center;
+	}
+
+	.short{
+		width: 90%;
+		margin-top: 20vh;
+	}
+}

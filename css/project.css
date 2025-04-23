@@ -1,0 +1,63 @@
+*{
+	margin: 0;
+}
+header{
+	width: 100%;
+	height: 70px;
+	position: fixed;
+}
+.one{
+	width: 20%;
+	height: 70px;
+	float: left;
+}
+.two{
+	width: 35%;
+	height: 70px;
+	float: left;
+}
+.three{
+	width: 45%;
+	height: 70px;
+	float: left;
+}
+.link{
+	list-style-type: none;
+	float:left;
+	margin: 7px;
+	padding: 7px;
+}
+#active{
+	margin-left: 10px;
+}
+.link a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #000;
+}
+.link a:hover{
+	border-bottom: 2px solid #fff;
+	color: #fff;
+}
+.fa{
+	float: left;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 17px;
+	margin-top: 2px;
+	padding: 7px;
+}
+.fa a{
+	font-size: 25px;
+}
+.fa a:hover{
+	color: #000;
+}
+.imgg{
+	width: 100%;
+	height: 750px;
+}
+.use{
+	width: 100%;
+	height: 750px;
+}

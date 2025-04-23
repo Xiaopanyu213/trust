@@ -1,0 +1,760 @@
+@media screen and (max-width:800px) {
+	.navbar{
+		height: 5vh;
+	}
+	.navbar button{
+		display: unset;
+		border: none;
+		background: none;
+		margin-top: 1%;
+	}
+	.navbar .fa-circle{
+		position: absolute;
+		color: white;
+	} 
+	.navbar .fa-times-circle{
+		position: absolute;
+		color: white; 
+		display: none;
+	}
+	.navbar img{
+		height: 2rem;
+		width: 4rem;
+	}  
+	.logo{ 
+		margin-left:41%; 
+	} 
+	.links{
+		display: none;
+		position: absolute; 
+		margin-left: unset;
+		margin-top: 1rem;
+		padding: 20px;
+		width: 40%; 
+		animation: link-animate 0.3s; 
+		transition: 0.6s; 
+	} 
+
+	.links a{
+		font-size: 1.3rem;
+	}
+	.navbar-nav{
+		padding:10px 20px;
+		border-radius: 7px; 
+		background: rgba(50, 50, 50, 0.8); 
+		transition: 0.4s ease-in-out;
+	}
+	.navbar-nav li{
+		list-style: none;
+		margin-left: unset; 
+		padding-top: 5px;
+		padding-bottom: 5px; 
+		transition: 0.4s ease-in-out;
+	}  
+	.navbar-nav li:hover{
+		padding-left: 10px; 
+		background: #404040;   
+		transition: 0.2s ease-in-out;
+		border-radius: 4px;
+	}
+	.navbar-nav li:nth-child(1){
+		border-bottom: 1px solid #404040; 
+	}
+	.navbar-nav li:nth-child(3){
+		border-bottom: 1px solid #404040; 
+	}
+	.navbar-nav li:nth-child(2){
+		border-bottom: 1px solid #404040; 
+	}
+	.navbar-right{
+		float: right;
+		margin-top: 4%;
+	}
+	.navbar-right a{
+		font-size: 1.3rem;
+	} 
+
+
+		
+	.landing .text{
+		margin-top: 15vh;
+	}
+	.text h1{  
+		font-size: 40px;
+	}
+	.buttons{
+		display: none;
+	}
+	.text button{ 
+		display: unset;
+		background: linear-gradient(90deg, purple, blue);
+		border: none;
+		border-top-left-radius: 30px;
+		border-top-right-radius: 30px;
+		border-bottom-left-radius: 30px;
+		padding: 5px 15px;
+		color: white; 
+		font-size: 14px; 
+		transition: 0.3s ease-in-out;
+	}
+	.text button:hover{ 
+		color: #d9d9d9;
+		transition: 0.3s ease-in-out;
+	}
+	.text a{ 
+		display: unset;
+		background: linear-gradient(90deg, #0d0d0d, #262626); 
+		border: 1px solid #262626;
+		border-top-left-radius: 30px;
+		border-top-right-radius: 30px;
+		border-bottom-left-radius: 30px;
+		color: white;
+		text-decoration: none;
+		padding: 5px 15px; 
+		font-size: 14px; 
+		margin-left: 10px; 
+		transition: 0.3s ease-in-out;
+	} 
+
+	.text button span{
+		margin-right: 8px;
+		color:black;
+	}
+	.text a span{
+		margin-right: 8px;
+		color: orange;
+	} 
+
+	.fl1{ 
+		top: 90px;
+		right: 60px;
+		left: unset; 
+	 }
+	 .fl2{ 
+	 	top: 90px;
+		right: 60px;
+		left: unset;  
+	 }
+	.ph{
+		top: 120px;
+	} 
+	.trd{
+		top: 120px;
+	}
+
+	.sign-up{
+		margin-top: 5vh;
+		height: 95vh;
+	} 
+	.sign-bx{ 
+		margin-top: 100px;
+		width: 90%;
+		height: 50rem; 
+	}
+	.sign-bx h2{
+		font-size: 25px; 
+	}
+	.sign-bx input{
+		float: unset;
+		width: 100%;
+	}
+	.sign-bx p{
+		width: 80%;
+	}
+
+	.log-in{
+		height: 42rem;
+	}
+
+	.forgot{
+		height: 33rem;
+	}
+
+
+	.land-img {
+		margin-top: unset;
+		padding-left: unset;
+	}  
+	.first-row h3{
+		font-size: 2rem;
+	}
+	.first-row p{ 
+		width: 90%; 
+	}
+	.fl-right{
+		float: unset;
+	}
+	.fl-right p{
+		width: 100%; 
+	}
+	.fl-right h1{
+		font-size: 2.5rem;
+	}
+	.fl-right button{
+		padding: 5px 15px;
+		font-size: 14px;
+	}
+
+	.fl-left{
+		float: unset;
+		margin-top: 12%;
+	}
+	.fl-left .line{
+		display: unset;
+	}
+	.stock {
+		width: 100%;
+		margin-left: unset;
+		margin-top: 8%;
+	}
+	.crypto{
+		width: 100%;
+		margin-top: 8%;
+		margin-left: unset;
+	}  
+	.snd-sect h1{ 
+		width: 100%;
+		font-size: 2.5rem;
+	}
+	.snd-sect p{
+		width: unset;
+		text-align: left;
+	}
+	.snd-sect img{ 
+		height: 40px;
+		width: 40px;
+		padding: 2px; 
+	} 
+	.snd-sect .top{
+		margin-top: 7%;
+	}
+	.snd-sect .top .t1{
+		padding: unset;
+		padding-left: 8px; 
+	}
+	.third{
+		background: black;
+		padding: 50px 10px;
+		height: auto; 
+	}  
+	button.accordion{
+		padding:10px 8px;
+	}
+	.col-xs-3{
+		width: 50%;
+	}
+	.last{
+		margin-bottom: 40px;
+	}
+	.foot{
+		padding:30px 10px;
+		width: 100%;
+		height: auto;
+	}
+	.news p{
+		margin-top: 40px;
+	}
+
+	.news input{
+		width: 70%; 
+	}
+	.news button{
+		width: 25%;
+		margin-left: 2%; 
+		margin-bottom: 20px;
+	}
+	.foot .container:after{
+		width: 40%;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* styling for dashboard begins here */ 
+ 	
+	.mode{
+		float: right;
+		margin-right: 3%;
+		margin-top: 1%;
+	}
+	.mode span{ 
+		border-radius: 50%;
+		padding: 5px;
+		position: absolute; 
+		font-size: 10px; 
+	}
+	.mode-options{
+		width: 40%;
+	}
+	.navdash{
+		height: 7vh; 
+		padding: 10px;
+	}
+	.logos{
+		height: 30px;
+		width: 30px;
+	} 
+
+	.left{
+		display: none;
+	}
+	.nav-bottom{
+		display: unset;
+		height: 7vh;
+		background:white;
+		transition: 0.6s ease-in-out; 
+	}
+	.right{
+		float: unset;
+		width: 100%;
+	} 
+	.nav-tab li{
+		list-style: none;
+		display: inline-block;
+		margin-top: 2vh; 
+	} 
+	.nav-tab li a{
+		text-decoration: none;
+		color: #404040;
+		font-weight: bold;
+		font-size: 1.8rem; 
+		padding: 10px; 
+	}
+	.nav-tab>li.active>a,.nav-tab>li.active>a:focus,.nav-tab>li.active{ 
+		color: #aa00ff;
+	}
+	.nav-tab>li>a:hover{ 
+		color: #aa00ff;
+	}
+	.nav-tab>li.active>a:hover{
+		color: #aa00ff;
+	}
+
+
+	.wave{
+		height: 20px;
+		width: 20px;
+	}
+	.banner{
+		width: 100%;
+		margin-bottom: 3vh;
+	} 
+
+	.liner{
+		width: 100%; 
+		margin-top: 1.5vh;
+	}
+	.stk{
+		height: 160px;
+		width: 48.5%;
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		margin-right: 1.5%;
+	}
+	.stk div{
+		height: 80px;
+		margin-top: 80px;
+		border-radius: 10px;
+	}
+	.cry{
+		width: 48.5%;
+		height: 160px;
+		border-top-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		margin-left: 1.5%;
+	}
+	.cry div{
+		height: 80px;
+		margin-top: 80px;
+		border-radius: 10px;
+	}
+	.art{
+		height: 160px;
+		width: 48.5%;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+		margin-right: 1.5%;
+	}
+	.art div{
+		height: 80px;
+		margin-top: 80px;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+	}
+	.estate{
+		height: 160px;
+		width: 48.5%;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		margin-left: 1.5%;
+	}
+	.estate div{
+		height: 80px;
+		margin-top: 80px;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+	}
+
+
+/*styling for dashboard portfolio section */
+	.nav-tabs li{
+		list-style: none;
+		display: inline-block;
+		margin-top: 2vh; 
+		width: 25%;
+		text-align: center;
+	} 
+	.nav-tabs li a{ 
+		color: #8c8c8c; 
+		font-size: 1.5rem; 
+		padding: 3px 0px; 
+	}
+
+	.assets-display{
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+ 
+
+
+
+/*styling for dashboard active trades section */
+	.nav-stretch li{
+		list-style: none;
+		display: inline-block;
+		margin-top: 2vh; 
+		width: 48%;
+		text-align: center;
+	} 
+	.nav-stretch li a{ 
+		color: #8c8c8c; 
+		font-size: 1.5rem; 
+		padding: 3px 0px; 
+	}
+
+	.trade-list{
+		width: unset;
+	}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+/*styling for discover section */
+
+ 	.check{
+ 		top: 5vh;
+ 		height: 95vh;
+ 	}
+ 	.fa-angle-left{
+ 		left: 5%;
+ 	}
+ 	.check h1{
+		width: 80%;
+		font-size: 2.3rem;
+		margin-top: 6vh;
+	}
+	.check h3{
+		font-size: 1.9rem;
+	}
+	.check img{
+		height: 60%;
+		width: 60%;
+	}
+	.checkout{
+		width: 100%;
+	}
+
+
+
+	.discover-stock h1{
+		margin-top: 10vh;
+		font-size: 2.5rem; 
+	} 
+	.discover-stock h3{
+		font-size: 1.8rem;
+	}
+	.exp-stock{
+		display: unset;
+		justify-content: unset;
+	}
+	.exp-crypto{
+		display: unset;
+		justify-content: unset;
+	}
+	.exp-nft{
+		display: unset;
+		justify-content: unset;
+	}
+	.exp-real{
+		display: unset;
+		justify-content: unset;
+	}
+ 	.explore{
+ 		width: 95%;
+ 		padding: 10px;
+ 		margin: 2vh auto 0;
+		border-bottom-right-radius: 15px;
+		border-top-right-radius: 15px;
+		border-bottom-left-radius: 15px;  
+ 	}
+ 	.explore img{
+		border-bottom-right-radius: 15px;
+		border-top-right-radius: 15px;
+		border-bottom-left-radius: 15px;  
+	}
+	.other-stock{
+		padding: 10px;
+	}
+	.other-stock img{
+		height: 80px;
+		width: 80px;
+	}
+ 
+ 	.discover-stock .col-xs-3{
+ 		margin-top: unset;
+ 		padding: 10px 5px;
+ 	}  
+
+
+
+
+
+ 	.discover-crypto h1{
+		margin-top: 6vh;
+		font-size: 2.5rem; 
+	} 
+	.discover-crypto h3{
+		font-size: 1.8rem;
+	} 
+	.other-crypto{
+		padding: 10px;
+	}
+	.other-crypto img{
+		height: 80px;
+		width: 80px;
+	}
+ 
+ 	.discover-crypto .col-xs-3{
+ 		margin-top: unset;
+ 		padding: 10px 5px;
+ 	}  
+
+
+
+
+ 	.discover-nft h1{
+		margin-top: 6vh;
+		font-size: 2.5rem; 
+	} 
+	.discover-nft h3{
+		font-size: 1.8rem;
+	} 
+	.other-nft{
+		padding: 10px;
+	}
+	.other-nft img{
+		height: 80px;
+		width: 80px;
+	}
+ 
+ 	.discover-nft .col-xs-3{
+ 		margin-top: unset;
+ 		padding: 10px 5px;
+ 	}  
+
+
+ 	.discover-real h1{
+		margin-top: 6vh;
+		font-size: 2.5rem; 
+	} 
+	.discover-real h3{
+		font-size: 1.8rem;
+	} 
+	.other-real{
+		padding: 10px;
+	}
+	.other-real img{
+		height: 80px;
+		width: 80px;
+	} 
+ 	.discover-real .col-xs-3{
+ 		margin-top: unset;
+ 		padding: 10px 5px;
+ 	}  
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-height:700px){
+	.landing{
+		height: 100vh;
+	}
+	.fl1{ 
+		top: 40px;
+		right: 40px;
+		left: 6rem;
+		width: 60%; 
+	 }
+	 .fl2{ 
+	 	top: 40px;
+		right: 40px;
+		left: 6rem;
+		width: 60%;  
+	 }
+	.ph{
+		top: 60px;
+		width: 70%;
+		right: 3rem;
+	} 
+	.trd{
+		top: 60px;
+		width: 40%;
+		left: 3rem;
+	}
+
+	.sign-bx{ 
+		margin-top: 80px; 
+	}
+
+
+	.check img{
+		height: 40%;
+		width: 40%;
+	}
+	.check .fa-angle-left{
+		top: 3vh;
+	}
+	.check h1{
+		font-size: 1.9rem;
+	}
+	.checkout{
+		width: 100%; 
+		height: 32rem
+	}
+
+
+
+} 
+
+
+
+
+
+@media screen and (max-width:300px){
+	.text h1{  
+		font-size: 30px;
+	}
+	.text button{ 
+		padding: 5px 8px;
+		font-size: 12px;
+	}
+	.text a{ 
+		font-size: 12px;
+		padding: 5px 8px;
+	}
+	.landing .container{
+		padding-left: 7px;
+		padding-right: 7px; 
+	}
+	.forgot{
+		height: 37rem;
+	}
+	.sign-bx p{
+		width: 100%;
+	}
+
+	.first-sect{
+		background: #00001a;
+	}
+ 
+	.first-row h3{
+		font-size: 2.5rem;
+	}
+	.first-row p{ 
+		width: 90%; 
+	}
+
+	.nav-tabs li{
+		list-style: none;
+		display: inline-block;
+		margin-top: 2vh; 
+		width: 25%;
+		text-align: center;
+	} 
+	.nav-tabs li a{ 
+		color: #8c8c8c; 
+		font-size: 1rem; 
+		padding: 3px 0px; 
+	}
+
+
+
+
+
+
+
+
+
+
+
+}
